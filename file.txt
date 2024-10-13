@@ -1,14 +1,13 @@
-from math import sqrt 
-# import square-root method from math library
-def nthFib(n):
-    res = (((1+sqrt(5))**n)-((1-sqrt(5)))**n)/(2**n*sqrt(5))
-    # compute the n-th fibonacci number
-    print(int(res),'is',str(n)+'th fibonacci number')
-    # format and print the number
-    
-# driver code
-nthFib(12)
+public class AddNumbers {
 
-# This code is contributed by Kush Mehta
+ public static void main(String[] args) {
 
-#This is a sample code for practicing
+ int num1 = 5, num2 = 10, sum;
+
+ sum = num1 + num2;
+
+ System.out.println(“Sum of ” + num1 + ” and ” + num2 + ” is: ” + sum);
+
+ }
+
+}
