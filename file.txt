@@ -2,7 +2,7 @@ public class AddNumbers {
 
  public static void main(String[] args) {
 
- int num1 = 10, num2 = 20, sum;
+ int num1 = 10, num2 = 10, sum;
 
  sum = num1 + num2;
 
