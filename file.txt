@@ -4,6 +4,7 @@ public class AddNumbers {
 
  int num1 = 10, num2 = 50, sum;
 
+
  sum = num1 + num2;
 
  System.out.println(“Sum of ” + num1 + ” and ” + num2 + ” is: ” + sum);
